@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FormulaireResp </title>
+</head>
+
+<body>
+
+<div>
+    <h3> Ajout d'un enseignant</h3>
+</div>
+
+<div>
+<fieldset> 
+    <legend> informations personneles </legend>
+
+    <label>Nom</label> <br>
+    <input type = "text" placeholder=" Nom" > <br><br>
+    <label>Prénom</label> <br>
+    
+    
+    <input type = "text" placeholder="Prénom" > <br> <br>
+    <label>Date de naissance  </label> <br>
+    <input type = "date"  > <br><br>
+    
+    
+    <label>Email</label> <br>
+    <input type ="email" placeholder="Adresse élétronique " > <br>
+    <abbr title = "adresse mail">?</abbr> <br> <br>
+    
+    
+    <label>Confirmation Email</label> <br>
+    <input type ="email" placeholder="Adresse élétronique " > <br> <br>
+   
+    <label> Adresse </label> <br>
+    <textarea id="adresse" name="adresse" rows="5" cols= "25" > </textarea> <br> <br>
+
+    <label> Sexe </label> <br>
+    <input type="radio" name="sexe" checked id="homme"> Homme 
+    <input type="radio" name="sexe" > Femme<br><br>>
+   
+   
+   
+   <label>Grade</label> <br>
+   <select size = 5>
+
+        <option>-------</option>
+        <option> Assistant</option>
+        <option> chargé de cours </option>
+        <option> MCA </option>
+        <option> MCB </option>
+        <option> Professeur </option>
+        <option> Autre </option>
+  
+    </select> <br> <br>
+
+    <label> Dernier diplôme</label> <br>
+
+    <input list ="Dernier diplôme" id ="diplôme"  name="diplome" placeholder="Dernier diplôme">
+    <datalist id="Dernier diplôme">
+        <option value="Doctorat" >
+        <option value="Thése d'Etat" >
+        <option value="Nouvelle Thése" >
+        <option value="Master" > 
+        <option value="ingeniorat" > 
+    </datalist> 
+    <br> <br> <br>
+
+
+
+</fieldset>
+
+
+<br><br><br>
+<div id="module2">
+<fieldset>
+    <legend> Enseignement et recherche </legend>
+<br><br>
+    <button> +</button> Modules théoriques
+    <br> <br>
+    <div>
+        <input type="checkbox"  name="bottom1" value="Theories des graphes">Theories des graphes <br>
+        <input type="checkbox"  name="bottom1" value="Logique mathématiques">Theories des langages <br>
+        <input type="checkbox" name="bottom1" value="Logique mathématiques">Logique mathématiques<br>
+        <input type="checkbox" name="bottom1" value="Complexité et decidablilité">Complexité et decidablilité<br>
+    </div>
+
+    <br><br>
+    <button> +</button> Modules de programmation
+    <br> <br>
+    <div>
+        <input type="checkbox"  name="bottom2" value="Algorithmique">Algorithmique <br>
+        <input type="checkbox"  name="bottom2" value="Programmation objets">Programmation objets <br>
+        <input type="checkbox" name="bottom2" value="Programmation web">Programmation web<br>
+        <input type="checkbox" name="bottom2" value="programmation fonctionnelle">programmation fonctionnelle<br>
+        <input type="checkbox"  name="bottom2" value="Assembleur">Assembleur <br>
+        <input type="checkbox"  name="bottom2" value="Prolog">Prologs <br>
+        <input type="checkbox" name="bottom2" value="Python et data science">Python et data science<br>
+    </div> <br> <br> 
+    <button> +</button> Modules de conception et analyse 
+    <br> <br>
+    <div>
+        <input type="checkbox"  name="bottom3" value="Génie logiciel">Génie logiciel <br>
+        <input type="checkbox"  name="bottom3" value="Base de données">Base de données <br>
+        <input type="checkbox" name="bottom3" value="Base de données avancée">Base de données avancée<br>
+        <input type="checkbox" name="bottom3" value="UML">UML<br>
+         <input type="checkbox"  name="bottom3" value="UML avancé">UML avancé <br>
+        <input type="checkbox"  name="bottom3" value="Intelligence artificielle"> Intelligence artificielle <br>
+         <input type="checkbox" name="bottom3" value=" Big data">Big datas<br>
+         <input type="checkbox" name="bottom3" value="Cloud Computing">Cloud Computing<br>
+    </div>
+    <br><br><br>
+    <input type="submit" value="sauvegarde" >
+    <input type="submit" value="annuler" >
+   
+</fieldset>
+</div>
+
+</div>
+
+</body>
+</html>
