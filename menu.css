@@ -42,8 +42,16 @@ ul li a:hover
     text-decoration: none;
 }
 
-#soucis
-{
-    padding: 0;
-    text-align: right;
+.soucis
+{   
+    position: absolute;
+ top: 60px;
+
+    
+}
+
+.pas{
+    position: absolute;
+    top: 80px;
+    right: 150px;
 }
