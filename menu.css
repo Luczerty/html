@@ -1,7 +1,12 @@
 body
 {
-    background-color: antiquewhite;
-    margin: 0px;
+    background:url("yone.png" ) no-repeat right top fixed, linear-gradient(to right ,#3300DB,#FFC300, #FF5733,#C70039,#900C3F,#581845);
+   background-color: ;
+    height: 500px; 
+   margin: 0px;
+  position: relative;
+
+
 }
 .header
 {
@@ -45,13 +50,13 @@ ul li a:hover
 .soucis
 {   
     position: absolute;
- top: 60px;
-
+top: 40px;
     
 }
 
 .pas{
     position: absolute;
-    top: 80px;
-    right: 150px;
+    top: 60px;
+    right: 400px;
+
 }
