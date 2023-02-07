@@ -1,0 +1,49 @@
+body
+{
+    background-color: antiquewhite;
+    margin: 0px;
+}
+.header
+{
+    background-color: gray;
+    height: 80px;
+    margin: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display:  inline-block;
+    padding: 50px;
+}
+
+ul li a{
+    color: #141572;
+    letter-spacing: 0.2rem;
+}
+ul li a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+.menu li{
+    float: left;
+    padding: 35px;
+}
+
+#titre
+{
+    border:1px solid;
+    padding: 10px;
+}
+
+.menu li a {
+
+    text-decoration: none;
+}
+
+#soucis
+{
+    padding: 0;
+    text-align: right;
+}
