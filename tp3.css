@@ -1,0 +1,25 @@
+label,p{
+    background-color: blue;color: white;
+    width: 200px;
+    height: 200px;
+}
+
+#div1,#div3,#div2{width: 200px; height: 200px;
+padding: 0px;
+border:5px solid yellow;
+display: inline-block;}
+
+#div1{background-color: green;}
+
+#div2{background-color: aqua;}
+
+#div3{background-color: red;}
+
+#div2:hover{
+
+    visibility: hidden;
+}
+
+#div1:hover{
+    display: none;
+}
