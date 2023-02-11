@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(142, 0, 0);
+}
+
+#enc1{
+    margin-top: 20px;
+    width: 500px;
+    height: 190px;
+    background-color: rgb(112, 0, 0);
+    position: absolute;
+    left: 400px;
+    border: 5px solid yellow;
+
+
+
+    
+}
+
+#img1{
+margin-top: 10px;
+position: relative;
+left: 40%;
+}
+
+#text{
+    position: relative;
+    left: 40%;
+    margin-top: 0;
+color: white;
+}
+
+
+
+.te{
+display: inline-block;
+position: relative;
+bottom: 0px;
+left: 5%;
+ width: 150px;
+ height: 20px;
+ background-color: rgb(214, 19, 74);
+}
+
+.te p{
+    position: relative;
+  color: white;
+  left: 5px;
+  bottom: 15px;
+}
+
+#enc2{
+    width: 180px;
+    height: 430px;
+    background-color: rgb(253, 188, 188);
+    border: 5px solid yellow;
+    position: relative;
+margin-left: 20px;
+top: 245px;
+
+}
+
+ label{
+    font-weight: bold;
+}
+.soustitre{
+
+   background-color: rgb(253, 253, 253); 
+   border: 3px solid rgb(248, 47, 47); 
+}
+#enc2 .soustitre {
+
+position: relative;
+left: 1px;
+top: 1px;
+height: 20px;
+
+}
+
+.soustitre p{
+    position: relative;
+    bottom: 16px;
+    left: 5px;
+    color: rgb(248, 47, 47);
+    font-weight: bold;
+}
+
+ul{
+
+    list-style: none;
+    color: black;
+}
+li::before{
+    content: "\2022";
+    color: brown;
+    margin-right: 5px;
+    
+}
+
+li{
+
+    font-size: 75%;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#part3{
+
+    border: yellow solid 5px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+    bottom: 170px;
+    left: 390px;
+    background-color:  rgb(253, 188, 188);
+}
+
+#partf{
+    border: yellow solid 5px;
+    height: 150px;
+    width: 1200px;
+position: relative;
+bottom: 100px;
+margin-left: 20px;
+background-color: rgb(253, 188, 188);
+}
+
+#part3 .soustitre{
+    padding: 5px;
+    height: 25px;
+}
+
+#part3 ul{
+    margin-left: -20px;
+}
+#partf .soustitre
+{
+    height: 30px;
+}
+
+#partf .soustitre p{
+    padding: 5px;
+}
